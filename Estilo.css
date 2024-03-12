@@ -1,0 +1,256 @@
+
+    #Titulo{
+        display: flex;
+        border-radius:1px;
+        background-color: lightblue;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .Body{
+        font: size 0.7em;
+        
+    }
+    #escudo{
+        width: 70%;
+        margin: 10px;    
+    }
+ 
+
+    .section1{
+        display: flex;
+
+    }
+    .section1>div{
+        display: flex;
+        align-items: center;
+        padding-bottom:1%;
+        border: 2px solid;
+        flex-direction: column;
+    }
+
+    .section1>div>article{
+        display: flex;
+        padding-bottom:30px;
+        text-align: center;
+    }   
+     #titulo2{
+        display: flex;
+        border-radius: 1px;
+        background-color: lightgreen;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .section2{
+        display: flex;
+        padding-bottom:10px;
+        background-color: lightgreen;
+
+    }
+    
+    #champions{
+        width: 100%;
+
+    }
+    #liga{
+        width: 100%;
+    }
+    #texto1{
+        padding-bottom: 20px;
+    }
+    #enlaces {
+        position: fixed;
+        bottom: 0;
+        left: auto;
+        padding: 10px; 
+        background-color: lightcoral; 
+    }
+
+
+
+/*COPA DEL REY */
+    
+
+    #TituloC{
+        display: flex;
+        border-radius:50px;
+        background-color: red;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #escudoC{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .mosaico {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px;
+        padding-bottom: 50px;
+    }
+    .imagen {
+        padding-top: 40px;
+        width: 100%;
+        height: 100%;
+
+    }
+    #ganadores{
+        padding-top: 20px;
+        border-radius: 20px;
+        background-color: red;
+        text-align: center;
+        padding-bottom:20px;
+        margin-bottom: 50px;
+    }
+    #enlacesC {
+        position: fixed;
+        left: auto;
+        background-color: lightblue;
+    }
+
+
+/*LIGA DE CAMPEONES*/
+    
+
+    #Titulochamp{
+        display: flex;
+        border-radius:50px;
+        background-color: blue;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #escudochamp{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .mosaico {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px;
+        padding-bottom: 50px;
+    }
+    .imagen {
+        padding-top: 40px;
+        width: 100%;
+        height: 100%;
+
+    }
+    #ganadoreschamp{
+        padding-top: 20px;
+        border-radius: 20px;
+        background-color: blue;
+        text-align: center;
+        padding-bottom:20px;
+        margin-bottom: 50px;
+    }
+    #enlacesC {
+        position: fixed;
+        bottom: 0;
+        left: auto;
+        padding: 10px; 
+        background-color: lightblue; 
+    }
+
+
+
+/*LIGA NACIONAL*/
+
+
+    #TituloS{
+        display: flex;
+        border-radius:50px;
+        background-color: orange;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #escudoS{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .mosaico {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px;
+        padding-bottom: 50px;
+    }
+    .imagen {
+        padding-top: 40px;
+        width: 100%;
+        height: 100%;
+
+    }
+    #ganadoresS{
+        padding-top: 20px;
+        border-radius: 20px;
+        background-color: orange;
+        text-align: center;
+        padding-bottom:20px;
+        margin-bottom: 50px;
+    }
+    #enlacesC {
+        position: fixed;
+        bottom: 0;
+        left: auto;
+        padding: 10px; 
+        background-color: lightblue; 
+    }
+
+@media (max-width:250px){
+        #TituloC{
+            display: flex;
+            border-radius:50px;
+            background-color: red;
+            height: 100px;
+            align-items: center;
+            justify-content: center;
+            font-size:90%;
+        }
+
+        }
+@media (max-width:320px){
+            #Titulochamp{
+                display: flex;
+                border-radius:50px;
+                background-color: blue;
+                height: 100px;
+                align-items: center;
+                justify-content: center;
+                font-size: 65%;
+            }
+    
+}
+@media (max-width:320px){
+    #TituloS{
+        display: flex;
+        border-radius:50px;
+        background-color: orange;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        font-size: 65%;
+    }
+
+}
+
+
+
+
