@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Estilo.css">
+
+
+
+    <div id="TituloF">
+        <h1>Entradas Bernabeu</h1>
+    </div>
+</head>
+
+<body>
+
+    <h2>Solicita tu entrada</h2>
+    <div class="formestilo">
+    <form action="procesar_formulario" method="post">
+        <div>
+            <label for="nombre">Nombre y Apellidos:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+            <label for="email">Email de contacto:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="mensaje">Aclaraciones:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+    </div>
+
+    <div id="enlaces">
+        |
+        <a href="index.html">INICIO</a>
+        |
+
+
+     </div> 
+    
+    </body>
